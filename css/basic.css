@@ -21,6 +21,9 @@ aside {
     padding: 0;
 }
 
+
+/* 圖片模組 */
+
 .thumbnail {
     border: 1px solid #ddd;
     padding: 5px;
@@ -39,6 +42,23 @@ aside {
     font-size: 0.75em;
 }
 
-ul>li {
-    border: 1px solid black;
+
+/* 基本的導覽列設定 */
+
+nav li>ul {
+    display: none;
 }
+
+nav li:hover>ul {
+    display: block;
+}
+
+nav ul {
+    padding: 0px;
+}
+
+nav li {
+    list-style-type: none;
+}
+
+nav li>ul>li {}
