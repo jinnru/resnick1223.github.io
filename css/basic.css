@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+article,
+section,
+div,
+nav,
+aside {
+    margin: 0;
+    padding: 0;
+}
+
+.thumbnail {
+    border: 1px solid #ddd;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.thumbnail img {
+    width: 100%;
+}
+
+.thumbnail .caption h3 {
+    font-size: 1em;
+}
+
+.thumbnail .caption p {
+    font-size: 0.75em;
+}
+
+ul>li {
+    border: 1px solid black;
+}
