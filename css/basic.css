@@ -1,3 +1,5 @@
+/* box model 設定*/
+
 * {
     box-sizing: border-box;
 }
