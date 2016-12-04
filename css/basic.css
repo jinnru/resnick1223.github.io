@@ -4,6 +4,17 @@
     box-sizing: border-box;
 }
 
+
+/* Container */
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+
+/* Reset CSS */
+
 body,
 h1,
 h2,
